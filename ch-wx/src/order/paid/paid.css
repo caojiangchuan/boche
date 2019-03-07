@@ -1,0 +1,11 @@
+.im-page{width: 100%; background: white; margin-top: 5%;overflow: hidden; padding-bottom: 10px;padding-left: 5.3%;}
+.im-money{ width: 100%; height: 117px; border-bottom: 1px solid #E5E5E5; }
+.im-money-left{font-size: 30px;    color: #888888; line-height: 117px; float: left;}
+.im-money-right{font-size: 30px;    color: #888888; line-height: 117px; float: right; padding-right: 5.3%}
+.im-space{ margin-right: 10px;}
+.im-con{ padding-right: 5.3%;padding-top: 30px;padding-bottom: 32px;}
+.im-con p{ line-height: 50px; display: block; overflow: hidden; margin-top:30px;}
+.im-con p:first-child{margin-top: 0;}
+.im-left{float: left;font-size: 28px;    color: #888888; clear: both}
+.im-right{float: right;font-size: 28px;    color: #888888; /*width: 59.3%; text-align: right;word-break: break-all;word-wrap: break-word;*/}
+.imback{width: 100%; height: 99px; line-height: 99px; text-align: center; background: white;font-size: 30px;    color: #1890FF;border-top: 1px solid #E5E5E5;}

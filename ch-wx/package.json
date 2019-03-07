@@ -1,0 +1,30 @@
+{
+  "name": "ch-wx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bmap": "^1.0.84",
+    "react-dom": "^16.5.2",
+    "react-dropzone": "^6.0.3",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-touch-loader": "^1.1.4",
+    "url": "^0.11.0",
+    "weixin-js-sdk": "^1.4.0-test",
+    "moment": "^2.19.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": ".",
+  "proxy": "http://10.8.30.29:8080"
+}

@@ -1,0 +1,20 @@
+.sim-num p{font-size: 28px;    color: #888888; padding: 3% 4.3%}
+.sim-con{width: 100%; margin-top: 3%}
+.sim-wri{display: table; margin: 0 auto;}
+.sim-wri li{width: 64px; height: 64px;     float:left;margin-left: 15px;font-size: 36px;    color: #000000;line-height: 64px;text-align: center; }
+.add-new{float: right;padding-right: 9%;margin-bottom: 6%}
+.usual-car2{clear: both;}
+.sim-font{width: 64px; height: 64px;border: 1px solid #979797; line-height: 64px; text-align: center;background: #FFFFFF; }
+.keyboard{ width: 100%; overflow: hidden; background:#E5E5E5; position: fixed; bottom: 0px;display: table; display: none;padding-bottom: 20px; padding-top: 10px;}
+.keyboard2{display: block}
+.keyboard li{width: 64px; height: 80px; border-radius: 10px;  margin-top: 15px;    float:left;margin-left: 10px;font-size: 36px;    color: #000000;line-height: 80px;text-align: center; background: white  }
+
+
+
+.car-show{ display: block}
+.car-hide{display: none}
+.del{position: absolute; bottom: 20px; right:231px;width: 64px; height: 80px; border-radius: 10px; background: white}
+.del img{width: 75%; height: 60%; margin-left: 5px; margin-top: 20px;}
+.border-active{ border: 1px solid #1890FF}
+
+

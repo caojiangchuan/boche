@@ -1,0 +1,78 @@
+server:
+  port: 8080
+  context-path: /ch1
+spring:
+  application:
+    name: userService
+  datasource:
+    url: jdbc:log4jdbc:mysql://117.131.57.218:38106/ch1?characterEncoding=utf8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: dev
+    password: Passw0rd!
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    tomcat:
+      test-on-borrow: true
+      max-active: 50
+      validation-query: select 1 from dual
+      max-idle: 5
+      min-idle: 2
+      test-while-idle: true
+      initial-size: 2
+      test-on-return: true
+  redis:
+    host: 117.131.57.218
+    password:
+    database: 10
+    port: 38107
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
+logging:
+  config: classpath:log4j2.xml
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${random.int}
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:3333/eureka/
+mybatis:
+  mapperLocations: classpath:mapper/*/*.xml
+  configuration:
+      map-underscore-to-camel-case: true
+      default-fetch-size: 100
+      default-statement-timeout: 30
+#jwt token 验证(默认有效期1天)
+token:
+  header: Authorization
+  secret: userService
+  expiration: 86400
+  domainName: http://fhx.zendaimoney.com/
+wx:
+  mp:
+    configs:
+      - appId: wx8354d91cfc1aa7c5
+        secret: ea7d6a7d220d50f20c027ea0024ef33d
+        token: NaVjTJ7sqkLruzcy8
+        aesKey: ZcqKBfC26MNnftGEPyJOCtSkuiTNpURZ83JAUsUCi9J
+  pay:
+    appId: wx8354d91cfc1aa7c5
+    mchId: 1517240751
+    mchKey: 1DA00097EE972E22E2F344532B081A18
+    subAppId: #服务商模式下的子商户公众账号ID
+    subMchId: #服务商模式下的子商户号
+    keyPath: # p12证书的位置，可以指定绝对路径，也可以指定类路径（以classpath:开头）
+    templateCode: S6kuvoH-fcV7DanLpvLanPpYDTQxIoTlpHfj_BTDV9o
+aliyun:
+  accessKeyID:  LTAIkwc2iTJnWSJf
+  accessKeySecret: qb0D4xv6Ifkg4U50rsnBkhmmdZXT9a
+  templateCode: SMS_149421908
+  signName: 呈享智慧泊车
+  product: Dysmsapi
+  domain: dysmsapi.aliyuncs.com
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+#springboot默认开启feign客户端，只要设置ribbon的延迟事件即可
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 5000

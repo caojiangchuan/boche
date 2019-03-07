@@ -1,0 +1,9 @@
+body{    background:#EFEFF4  ;}
+.about {    width:100% ;    margin-Top:3%;    height:264px;    background: white;}
+.about li{    height:88px;    font-size: 34px;    color: #000000;    background:white;    margin-Left:4.3%;    border-Bottom:1px solid #E5E5E5; line-height: 88px   }
+.about li span{line-height: 88px}
+.ab-right{    padding-right:3.7%;    float: right;    }
+.about-logo{ width:176px; height: 176px; margin: 0 auto; margin-top: 90px}
+.about-head p{text-align: center;font-size: 44px;    color: #000000;    letter-spacing: 0;}
+.about-name{margin-top: 25px;}
+.about-vsi{margin-top: 20px; margin-bottom: 60px;}

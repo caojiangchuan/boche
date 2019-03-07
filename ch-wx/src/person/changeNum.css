@@ -1,0 +1,10 @@
+.ch-all{width: 100%; height: 100%; position: absolute; background: white;}
+.ch-phone{width: 186px; height: 186px; margin: 0 auto; margin-top: 200px;}
+.ch-phone img{ width: 100%; height: 100%;}
+.ch-nowNum{font-size: 34px;    color: #000000;    letter-spacing: 0;    text-align: center; margin-top: 50px;}
+.ch-num{font-size: 34px;    color: #1890FF;    letter-spacing: 0;    text-align: center; margin-top: 30px;}
+.ch-three{font-size: 28px;    color: #999999; margin-top: 40px; padding: 0px 85px;}
+.ch-three li { margin-top: 20px; position:relative; line-height: 30px;}
+.ch-three li:after{ position: absolute; content: ""; width:12px; height: 12px; border-radius: 50%; background: #999999; left: -30px; top: 10px; }
+.ch-btn{  position: absolute;bottom: 100px; width: 100%; }
+

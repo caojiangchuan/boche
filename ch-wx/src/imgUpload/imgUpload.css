@@ -1,0 +1,12 @@
+#displayNone{ display: none;}
+.imgUpadd{  background:url(../img/add.png) center center no-repeat; width: 116px; height: 116px; border: #ccc solid 1px; float: left;}
+.igp_preview{ position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,.8); top: 0; left: 0; z-index: 99;  }
+.igp_pw_img{ position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; max-width: 81%; max-height: 80%; min-width: 80%;}
+.igp_pw_del{ position: absolute; bottom: 20px; left: 0; right: 0; margin: 0 auto;}
+.imgUp_show{ float: left; height: 116px; }
+.imgUp_show li{height: 116px; width: 116px; overflow: hidden; position: relative; margin-right: 30px; float: left; border:#ccc 1px solid;}
+.imgUp_show img{ width: 116px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;}
+
+
+
+

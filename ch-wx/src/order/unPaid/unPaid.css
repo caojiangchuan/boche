@@ -1,0 +1,16 @@
+.pa-page{width: 100%; background: white; margin-top: 5%;overflow: hidden; padding-bottom: 10px;padding-left: 5.3%;}
+.pa-money{ width: 100%; height: 117px; border-bottom: 1px solid #E5E5E5; }
+.pa-money-left{font-size: 30px;    color: #888888; line-height: 117px; float: left;}
+.pa-money-right{font-size: 30px;    color: #888888; line-height: 117px; float: right; padding-right: 5.3%;color: #E64340;}
+.pa-space{ margin-right: 10px;}
+.pa-con{ padding-right: 5.3%;padding-top: 30px;padding-bottom: 32px;}
+.pa-con p{ line-height: 50px; display: block; overflow: hidden; margin-top:30px;}
+.pa-con p:first-child{margin-top: 0;}
+.pa-left{float: left;font-size: 28px;    color: #888888; clear: both}
+.pa-right{float: right;font-size: 28px;    color: #888888; /*width: 59.3%; text-align: right;word-break: break-all;word-wrap: break-word;*/}
+.paback{width: 100%; height: 99px; line-height: 99px; text-align: center; background: white;font-size: 30px;    color: #1890FF;border-top: 1px solid #E5E5E5;}
+.pa-state{color: #E64340;}
+.pa-tip{ padding:60px 70px;font-size: 23px; line-height: 35px;}
+.pa-tip-show{display:block;}
+.pa-tip-hide{display: none}
+.tip-impaid{color: #1890FF}

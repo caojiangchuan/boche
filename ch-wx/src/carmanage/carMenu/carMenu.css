@@ -1,0 +1,13 @@
+.car-list{ width: 100%; overflow:hidden; background: white;margin-Top:3%; }
+.car-list li{height: 88px; width: 100%;border-bottom: 1px solid  #E5E5E5;margin-Left:4.3%; line-height: 88px;text-transform:uppercase }
+.head-list{font-size: 26px;    color: #999999;    text-align: left; line-height: 88px;}
+.addcar-img img{ width:46px; height:46px; position: relative; top: -5px}
+.carnum{font-size: 34px;    color: #000000;    letter-spacing: 0; margin-left: 3.6%;}
+.usual{width: 118px; height: 36px;background: #2395FE;    border-radius: 4px; display: inline-block; margin-left: 2.7%; position: relative; text-align: center;  color: white; line-height: 36px;font-size: 22px; color: #FFFFFF;  letter-spacing: 0;}
+.add-right{padding-right:8%;    float: right; padding-top: 30px;    }
+.add-car{width: 100%; height: 88px; background: white; margin-top: 4%; padding-left: 4.3%; line-height: 88px;}
+.bd-car{font-size: 34px;    color: #000000;    letter-spacing: 0; margin-left: 2.7%}
+.adhide{display: none}
+.car-list li a{display: block; width: 100%; height: 100%; line-height: 88px;text-decoration: none}
+
+

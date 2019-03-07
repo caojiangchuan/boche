@@ -1,0 +1,103 @@
+@import '~antd/dist/antd.css';
+
+.container {
+  //width: 100%;
+  border: 1px solid #ebedf0;
+  border-radius: 2px;
+  display: inline-block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden
+}
+
+.map {
+  width: 100%;
+  height: 700px;
+  //margin-top: 8px;
+}
+
+.divC{
+  //position:absolute;
+  //position: absolute; z-index: 10;
+  //left:80%;
+  //top:80px;
+  background:#FFFFFF;
+  width:250px;
+  height:580px;
+  border-radius:8px;
+  border: 1px solid #979797;
+  padding: 0 20px;
+
+  z-index: 4;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.divIcon{
+  z-index: 4;
+  position: absolute;
+  top: 50px;
+  right: 280px;
+}
+
+.divIconImg{
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.divFont {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #F1F1F1;
+  font-weight:bold;
+}
+
+.divSelect {
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.deviceTable {
+  border: 1px solid #e8e8e8;
+  border-right: 0;
+  border-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.deviceTableThead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  background-color: #FAFAFA;
+}
+
+.divTable {
+  max-height: 450px;
+  margin-top: 10px;
+
+  box-sizing: border-box; // 为了设置padding时不增加元素本身高度，避免出现滚动条
+  overflow-y: scroll; // 隐藏浏览器本身的滚动条
+  position: relative;
+  padding-right: 2px; // 给自制滚动条留点空间，不要其他内容重合了
+}
+
+// 选中后背景颜色
+.color {
+  background-color: #97cfff;
+}
+
+// table
+
+.table-head{padding-right:17px;background-color:#999;color:#000;}
+.table-body{width:100%; height:300px;overflow-y:scroll;}
+.table-head table,.table-body table{width:100%;}
+.table-body table tr:nth-child(2n+1){background-color:#f2f2f2;}
+
+

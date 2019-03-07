@@ -1,0 +1,61 @@
+@import '~antd/dist/antd.css';
+
+.container {
+  width: 100%;
+  border: 1px solid #ebedf0;
+  border-radius: 2px;
+  display: inline-block;
+  background: #fff;
+}
+
+.buttonDiv {
+  padding: 10px 24px 6px 20px;
+  background: #fff;
+  margin-top: 6px;
+}
+
+.buttonFrom {
+  padding: 3px 4px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #ebedf0;
+  border-left: 4px solid #1890ff;
+}
+
+.tableListForm {
+  margin-left: 10%;
+  margin-top: 10px;
+  padding: 10px;
+  :global {
+    .ant-form-item {
+      margin-right: 0;
+      display: flex;
+      > .ant-form-item-label {
+        width: auto;
+        line-height: 32px;
+        padding-right: 8px;
+      }
+      .ant-form-item-control {
+        line-height: 32px;
+      }
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+  .submitButtons {
+    white-space: nowrap;
+    margin-bottom: 24px;
+  }
+}
+
+.table {
+  margin-top: 10px;
+}
+
+.editButton {
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+}
+

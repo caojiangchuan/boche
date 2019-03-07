@@ -1,0 +1,26 @@
+.wri-num{ color: #888888 ;    font-size: 28px;    padding-left: 4.1%;    padding-top: 3%;    padding-bottom: 2%;}
+.wri-carnum{width: 100%; height: 88px; background: white;    position: relative; }
+.wri-carnum:after{ position: absolute;content: "车牌号码"; left:4.1%; font-size: 34px;    color: #000000;    letter-spacing: 0; line-height: 88px;}
+.wri-carnum2{text-indent: 28.1%;font-size: 34px;    color: #000000;    letter-spacing: 0;}
+.wri-mes{ margin-top: 2%}
+.wri-ul{width: 100%; overflow:hidden; background: white;}
+.wri-ul li{height: 88px; width: 100%;border-bottom: 1px solid  #E5E5E5;margin-Left:4.3%; line-height: 88px;font-size: 34px;    color: #000000;    letter-spacing: 0;}
+.wri-li{ float: right; width: 238px; height: 48px; margin-right:60px; display: inline-block; margin-top: 20px;}
+.wri-img{ width: 100%;    background: white;    padding-top: 4.5%;    padding-bottom: 4.5%; padding-left: 30px;}
+.wri-add{width: 116px;    height: 116px;    border: 1px solid #CCCCCC;;    background: url("../../img/add.png") no-repeat  center;    margin-left: 4%;}
+.usual-car{width: 100%;height: 88px; background: white;margin-top: 6%; }
+.wri-left{float: left; padding-left:4.1%; line-height: 88px;font-size: 34px;    color: #000000;    letter-spacing: 0;}
+.wri-right{float: right;line-height: 88px; padding-right: 4.2%; }
+.wri-right img{ width: 36px; height: 30px;}
+
+.wri-agree{margin-top: 6%;font-size: 26px;    color: #9B9B9B; padding-left: 4.1%; }
+.wri-agree a{color: #566994;}
+.wri-sure{ width: 24px; height: 24px; display: inline-block;background: #FFFFFF;    border: 1px solid #D0D0D0;    border-radius: 4px; position: relative;top: 2px;}
+.sure-img{width: 22px;height: 15px; }
+.sure-img img{width: 100%; height: 100%; position: relative; top: -4px;}
+.wri-btn{background: #1890FF;    border-radius: 10px; width: 89.3%; height: 94px;margin: 6% auto;opacity: .4; text-align: center; line-height: 94px; color: white;font-size: 36px;}
+.wri-btn2{opacity: 1; }
+.bd{opacity: .6;}
+.bd2{opacity: 1}
+.read{display: inline-block}
+input{text-transform:uppercase}
